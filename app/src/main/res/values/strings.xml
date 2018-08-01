@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">News App Stage 2</string>
+    <string name="no_stories">No stories found!</string>
+    <string name="no_internet_connection">No internet connection available!</string>
+
+    <string name="settings_menu_item">Settings</string>
+
+    <string name="settings_title">Story Settings</string>
+
+    <string name="settings_order_by_publication_date_label">Order By Publication Date</string>
+    <string name="settings_order_by_publication_date_key" translatable="false">order_by_publication_date</string>
+    <string name="settings_order_by_publication_date_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <string name="settings_order_by_edition_label">Order By Edition</string>
+    <string name="settings_order_by_edition_key" translatable="false">order_by_edition</string>
+    <string name="settings_order_by_edition_default" translatable="false">@string/settings_order_by_published_edition_value</string>
+
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <string name="settings_order_by_published_edition_label">Published</string>
+    <string name="settings_order_by_published_edition_value" translatable="false">published</string>
+    <string name="settings_order_by_newspaper_edition_label">Newspaper</string>
+    <string name="settings_order_by_newspaper_edition_value" translatable="false">newspaper-edition</string>
+    <string name="settings_order_by_last_modified_edition_label">Last Modified</string>
+    <string name="settings_order_by_last_modified_edition_value" translatable="false">last-modified</string>
+
+</resources>
