@@ -6,13 +6,17 @@ public class Story {
 
     private String mTitle;
 
+    private String mDate;
+
     private String mUrl;
 
-    public Story(String category, String title, String url) {
+    public Story(String category, String title, String date, String url) {
 
         mCategory = category;
 
         mTitle = title;
+
+        mDate = date;
 
         mUrl = url;
 
@@ -24,6 +28,10 @@ public class Story {
 
     public String getTitle() {
         return mTitle;
+    }
+
+    public String getDate() {
+        return mDate;
     }
 
     public String getUrl() {

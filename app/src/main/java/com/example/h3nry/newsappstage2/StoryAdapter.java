@@ -31,6 +31,20 @@ public class StoryAdapter extends ArrayAdapter<Story> {
         TextView storyTitleView = (TextView) listItemView.findViewById(R.id.story_title);
         storyTitleView.setText(currentStory.getTitle());
 
+        TextView storyPublicationDateView = (TextView) listItemView.findViewById(R.id.story_publication_date);
+
+        String date = currentStory.getDate();
+
+        String[] formattedDate = date.split("T");
+
+        for (int i=0; i < formattedDate.length; i++) {
+
+            System.out.println(formattedDate[i]);
+
+        }
+
+        storyPublicationDateView.setText(formattedDate[0]);
+
         return listItemView;
 
     }

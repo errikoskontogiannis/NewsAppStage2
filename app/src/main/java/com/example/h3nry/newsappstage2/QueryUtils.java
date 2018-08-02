@@ -168,9 +168,10 @@ public final class QueryUtils {
 
                 String category = currentStory.getString("sectionName");
                 String title = currentStory.getString("webTitle");
+                String date = currentStory.getString("webPublicationDate");
                 String url = currentStory.getString("webUrl");
 
-                Story story = new Story(category, title, url);
+                Story story = new Story(category, title, date, url);
 
                 stories.add(story);
             }
